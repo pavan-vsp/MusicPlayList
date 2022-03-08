@@ -46,10 +46,13 @@
   color: white;
 }
 .no-songs-container {
-  height: 50vh;
+  height: 53vh;
   width: 100vw;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   color: white;
+}
+.list-container {
+  min-height: 450px;
 }

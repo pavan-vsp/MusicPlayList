@@ -111,7 +111,7 @@ class Home extends Component {
   renderPlayList = () => {
     const {trackList} = this.state
     return (
-      <ul>
+      <ul className="list-container">
         {trackList.map(EachSong => (
           <SongItem
             key={EachSong.id}
@@ -168,3 +168,9 @@ class Home extends Component {
   }
 }
 export default Home
+
+// {
+//   /* <div className="no-songs-container">
+//                 <p>No Songs Found</p>
+//               </div> */
+// }

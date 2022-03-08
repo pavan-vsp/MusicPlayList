@@ -20,8 +20,13 @@ const SongItem = props => {
       </div>
       <div className="duration-dltIcon">
         <p>{duration}</p>
-        <button type="button" className="delete-btn" testid="delete">
-          <AiTwotoneDelete size={20} color="white" onClick={delFun} />
+        <button
+          type="button"
+          className="delete-btn"
+          testid="delete"
+          onClick={delFun}
+        >
+          <AiTwotoneDelete size={20} color="white" />
         </button>
       </div>
     </li>
